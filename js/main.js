@@ -55,5 +55,9 @@ btn2.onclick = function a (){
         document.getElementById("task_answer2").textContent = "error" 
     }else if(a == b || b == c || c == a){
         document.getElementById("task_answer2").textContent = "bingo" 
+    }else{
+        document.getElementById("task_answer2").textContent = "нету совпадений" 
     }
+    
+    
 }
